@@ -748,9 +748,9 @@ social-icons svg[viewBox="0 0 30 30"]:hover path {
 .bouncy-wrapper {
     display: inline-block;
     vertical-align: middle;
-    width: 200px;  /* Adjust width to fit the word */
-    height: 60px;  /* Adjust height to match your font size */
-    margin: 0 10px; /* Pulls text closer to "How" and "Works" */
+    width: 200px;
+    height: 60px;
+    margin: 0 10px;
 }
 
 .bouncy-wrapper svg {
@@ -762,7 +762,7 @@ social-icons svg[viewBox="0 0 30 30"]:hover path {
 .bouncy-wrapper svg text {
     animation: stroke 2s infinite alternate;
     stroke-width: 2;
-    stroke: #084c58; /* Changed to match your brand Teal */
+    stroke: #084c58;
     font-size: 55px;
     font-weight: 700;
 }
@@ -793,7 +793,7 @@ social-icons svg[viewBox="0 0 30 30"]:hover path {
     }
 }
 
-/* Center the heading text */
+
 .section-heading {
     display: flex;
     align-items: center;
@@ -1048,7 +1048,7 @@ social-icons svg[viewBox="0 0 30 30"]:hover path {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: auto; /* Pushes content down if needed */
+    margin-bottom: auto;
 }
 
 .feature-card h3 {
@@ -1113,7 +1113,7 @@ social-icons svg[viewBox="0 0 30 30"]:hover path {
     padding: 18px 40px;
     text-decoration: none;
     font-weight: 700;
-    border-radius: 100px; /* Modern pill shape */
+    border-radius: 100px;
     display: inline-block;
     transition: 0.3s ease;
     box-shadow: 0 6px 20px 2px rgba(44, 95, 95, 0.4);
