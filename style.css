@@ -20,6 +20,11 @@ html {
     list-style-type: none;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: white;
@@ -1987,7 +1992,7 @@ social-icons svg[viewBox="0 0 30 30"]:hover path {
     height: 0;
 }
 
-.slider {
+.slides {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -1999,7 +2004,7 @@ social-icons svg[viewBox="0 0 30 30"]:hover path {
     transition: .4s;
 }
 
-.slider:before {
+.slides:before {
     position: absolute;
     content: "";
     height: 1.5rem;
@@ -2011,25 +2016,25 @@ social-icons svg[viewBox="0 0 30 30"]:hover path {
     transition: .4s;
 }
 
-input:checked + .slider {
+input:checked + .slides {
     background-color: #084c58;
 }
 
-input:focus + .slider {
+input:focus + .slides {
     box-shadow: 0 0 1px #084c58;
 }
 
-input:checked + .slider::before {
+input:checked + .slides::before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
 }
 
-.slider.round {
+.slides.round {
     border-radius: 34px;
 }
 
-.slider.round:before {
+.slides.round:before {
     border-radius: 50%;
 }
 
@@ -3877,4 +3882,12 @@ input:checked + .slider:before {
     .consent-btn {
         justify-content: center;
     }
+
+    .save-cookie-inner .ml-2 {
+    margin-left: 0.5rem;
+    font-size: .55rem;
+    line-height: 1rem;
+    font-weight: 600;
+    color: #6a7181;
+}
 }
